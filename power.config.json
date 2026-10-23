@@ -1,0 +1,128 @@
+{
+  "version": "1.0",
+  "appId": "504c014b-444d-41fa-a626-803c26cbb1eb",
+  "appDisplayName": "Cap Innovation App",
+  "region": "prod",
+  "appType": "CodeApp",
+  "environmentId": "Default-2bd82a68-2c7d-4c43-b080-9b064410f6cf",
+  "description": "Portefeuille Cap Innovation",
+  "buildPath": "./dist",
+  "buildEntryPoint": "index.html",
+  "localAppUrl": "http://localhost:3000",
+  "logoPath": "Default",
+  "connectionReferences": {
+    "36e2f9df-6ed9-422d-96c3-4de74c9a58ac": {
+      "id": "/providers/Microsoft.PowerApps/apis/shared_sharepointonline",
+      "displayName": "SharePoint",
+      "dataSources": [
+        "_01_departements",
+        "_02_utilisateurs",
+        "_03_piliers",
+        "_04_programmes",
+        "_05_typesinitiative",
+        "_06_etapestypesinitiative",
+        "_07_initiatives",
+        "_08_jalons",
+        "_09_benefices",
+        "_10_recommandations",
+        "_11_suivisrecommandations",
+        "_12_validations",
+        "_13_documents",
+        "_14_historiquebudgets",
+        "_15_jaloncommentaires",
+        "_16_jalondifficultes",
+        "_17_replanifications",
+        "_18_replanificationitems",
+        "_19_journalactivite",
+        "_20_lignesvalidation",
+        "_21_joursferies",
+        "_22_notifications",
+        "_23_directions"
+      ],
+      "dataSets": {
+        "https://afrilandfirstbankcmr.sharepoint.com/sites/Cap-Innovation": {
+          "dataSources": {
+            "_01_departements": {
+              "tableName": "01_Departements"
+            },
+            "_02_utilisateurs": {
+              "tableName": "02_Utilisateurs"
+            },
+            "_03_piliers": {
+              "tableName": "03_Piliers"
+            },
+            "_04_programmes": {
+              "tableName": "04_Programmes"
+            },
+            "_05_typesinitiative": {
+              "tableName": "05_TypesInitiative"
+            },
+            "_06_etapestypesinitiative": {
+              "tableName": "06_EtapesTypesInitiative"
+            },
+            "_07_initiatives": {
+              "tableName": "07_Initiatives"
+            },
+            "_08_jalons": {
+              "tableName": "08_Jalons"
+            },
+            "_09_benefices": {
+              "tableName": "09_Benefices"
+            },
+            "_10_recommandations": {
+              "tableName": "10_Recommandations"
+            },
+            "_11_suivisrecommandations": {
+              "tableName": "11_SuivisRecommandations"
+            },
+            "_12_validations": {
+              "tableName": "12_Validations"
+            },
+            "_13_documents": {
+              "tableName": "13_Documents"
+            },
+            "_14_historiquebudgets": {
+              "tableName": "14_HistoriqueBudgets"
+            },
+            "_15_jaloncommentaires": {
+              "tableName": "15_JalonCommentaires"
+            },
+            "_16_jalondifficultes": {
+              "tableName": "16_JalonDifficultes"
+            },
+            "_17_replanifications": {
+              "tableName": "17_Replanifications"
+            },
+            "_18_replanificationitems": {
+              "tableName": "18_ReplanificationItems"
+            },
+            "_19_journalactivite": {
+              "tableName": "19_JournalActivite"
+            },
+            "_20_lignesvalidation": {
+              "tableName": "20_LignesValidation"
+            },
+            "_21_joursferies": {
+              "tableName": "21_JoursFeries"
+            },
+            "_22_notifications": {
+              "tableName": "22_Notifications"
+            },
+            "_23_directions": {
+              "tableName": "23_Directions"
+            }
+          }
+        }
+      }
+    },
+    "0d1b536e-de8e-4c94-ad73-fd21b10e89dd": {
+      "id": "/providers/Microsoft.PowerApps/apis/shared_office365users",
+      "displayName": "Office 365 Users",
+      "dataSources": [
+        "office365users"
+      ],
+      "dataSets": {}
+    }
+  },
+  "databaseReferences": {}
+}
